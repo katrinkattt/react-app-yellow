@@ -22,7 +22,7 @@ body{
   height: 35px;
   width: 100%;
   background-color: #ffffffca;
-  color:#2f2f2f;
+  color:#2f2f2fda;
   font-size: larger;
   font-weight: bold;
   position: fixed;
@@ -30,7 +30,7 @@ body{
   z-index: 3;
 }
 .menu a{
-  margin-left: 20px;
+  margin-left: 35px;
 }
 
 .main__container{
@@ -104,4 +104,10 @@ body{
   padding-top: 2px;
 }
 
+
+.orange{
+  height: 100px;
+  width: 100px;
+  background-color: #f77810;
+}
 
