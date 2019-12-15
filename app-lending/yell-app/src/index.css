@@ -19,10 +19,33 @@ body{
     monospace;
 }
 
-.MainContainer{
+.main__container{
   width: 100%;
   height: 100vh;
-  background-color: chartreuse;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.grey__block{
+  background-color: #f4f4f4;
+  width: 1015px;
+  height: 70%;
+  margin-left: 400px;
+  margin-top: 85px;
+  position: absolute;
+}
+
+.title__main{
+  font-size: 64px;
+  line-height: 64px;
+  margin-top: 200px;
+  margin-bottom: 1px;
+  margin-left: 30%;
+  position: absolute;
+  z-index: 2;
+}
+.second__title  {
+  margin-top: 1px;
 }
 
 
