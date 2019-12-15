@@ -8,7 +8,7 @@ export default class MainContainer extends Component {
                     <div className="home__line">
                         <div className="line__home"></div>
                         <p className="title__home">HOME</p>
-                        </div>
+                    </div>
                     <p>Creative agency </p>
                     <p className="second__title">Digital design</p>
                     </div>
