@@ -104,10 +104,23 @@ body{
   padding-top: 2px;
 }
 
-
-.orange{
-  height: 100px;
-  width: 100px;
-  background-color: #f77810;
+.cards__b{
+  display: flex;
+  justify-content: center;
 }
+#big-block{
+  width: 850px;
+  height: 70%;
+  overflow: hidden; /* может быть лишнее, но на всякий случай*/
+
+}
+
+.small-block{
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin: 0 0 16px 20px;
+  background-color: #999; /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
+}
+
 
