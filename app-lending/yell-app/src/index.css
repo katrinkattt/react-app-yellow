@@ -171,3 +171,27 @@ body{
   background-color: #2f20ff;
 }
 
+.skils__main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.skils__about{
+  justify-content: left;
+  height: 70%;
+  width:50%;
+}
+
+.skils__title{
+  color: #2f2f2f;
+  font-size: large;
+}
+
+.skils__foto{
+  width: 50%;
+  height: 70%;
+  background-color: rgb(95, 91, 91);
+  border-radius: 2px;
+}
+
+
