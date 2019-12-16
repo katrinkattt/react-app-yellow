@@ -174,17 +174,22 @@ body{
 .skils__main{
   display: flex;
   justify-content: space-around;
+  width: 70%;
+  height: 80%;
 }
 
 .skils__about{
   justify-content: left;
   height: 70%;
-  width:50%;
+  width: 50%;
+  padding: 20px;
 }
-
 .skils__title{
-  color: #2f2f2f;
-  font-size: large;
+  margin-bottom: 50px;
+}
+.skils__text{
+  text-align: left;
+  width: 70%;
 }
 
 .skils__foto{
