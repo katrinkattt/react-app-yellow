@@ -84,8 +84,8 @@ body{
   background-color: #fff;
   color: #2f2f2f;
   padding-top: 10%;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
 }
 
 .second__c{
@@ -108,7 +108,7 @@ body{
 #big-block{
   width: 850px;
   height: 75%;
-  overflow: hidden; /* может быть лишнее, но на всякий случай*/
+  overflow: hidden;
 }
 .serv__b{
   float: left;
