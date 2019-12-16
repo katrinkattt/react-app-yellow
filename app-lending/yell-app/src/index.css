@@ -201,4 +201,14 @@ body{
   /* found foto */
 }
 
+.command__main{
+  height: 70%;
+}
+
+.person{
+  height: 250px;
+  width: 150px;
+  padding: 20px;
+}
+
 
