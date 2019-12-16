@@ -7,7 +7,14 @@ export default class OurService extends Component {
                 <div className="second__c">
                     <div className="title_container">Our Services</div>
                     <div className=" title2__">Use the colspan and rowspan attribute to let the content span over multiple columns or rows.</div>
-                        
+                    <div id="big-block">
+                        <div className="serv__b"></div>
+                        <div className="serv__b"></div>
+                        <div className="serv__b"></div>
+                        <div className="serv__b"></div>
+                        <div className="serv__b"></div>
+                        <div className="serv__b"></div>
+                    </div>
                 </div>
             </div>
         )

@@ -103,7 +103,13 @@ body{
   font-size: 14px;
   padding-top: 2px;
 }
-
+.serv__b{
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin: 0 0 16px 20px;
+  color: #2f2f2fdc;
+}
 .cards__b{
   display: flex;
   justify-content: center;
