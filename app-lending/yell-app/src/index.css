@@ -112,7 +112,6 @@ body{
   width: 850px;
   height: 70%;
   overflow: hidden; /* может быть лишнее, но на всякий случай*/
-
 }
 
 .small-block{
@@ -120,7 +119,21 @@ body{
   height: 250px;
   width: 250px;
   margin: 0 0 16px 20px;
-  background-color: #999; /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
+  background-color: #000; /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
 }
-
+.orange{
+  background-color: #f85b00;
+}
+.yell{
+  background-color: #f1f509;
+}
+.green{
+  background-color: #7ef50e;
+}
+.purple{
+  background-color: #820d97;
+}
+.blue{
+  background-color: #2f20ff;
+}
 
