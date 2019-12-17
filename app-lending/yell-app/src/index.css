@@ -56,7 +56,7 @@ body{
   color: #2f2f2f;
   margin-top: 200px;
   margin-bottom: 1px;
-  margin-left: 30%;
+  margin-left: 25%;
   position: absolute;
   z-index: 2;
 }
@@ -82,12 +82,17 @@ body{
   width: 119px;
   background-color: #FFE400;
   position: absolute;
+  margin-left: 20%;
+  margin-top: 58vh;
+  border-radius: 3px;
+  box-shadow: #0000008e 2px 3px 3px;
 }
 .btn__main a{
   text-decoration: none;
+  padding-top: 40%;
 }
 .btn__title{
-  margin-top: 50%;
+  margin-top: 300px;
   margin-left: 200px;
 }
 
