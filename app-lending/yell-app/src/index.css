@@ -77,16 +77,7 @@ body{
   height: 2px;
   margin-right: 10px;
 }
-.btn__main{
-  height: 47px;
-  width: 119px;
-  background-color: #FFE400;
-  position: absolute;
-  margin-left: 20%;
-  margin-top: 58vh;
-  border-radius: 3px;
-  box-shadow: #0000008e 2px 3px 3px;
-}
+
 .btn__main a{
   text-decoration: none;
   height: 47px;
@@ -99,7 +90,7 @@ a span {
   height: 47px;
   width: 119px;
   background-color: #FFE400;
-  /* position: absolute; */
+  position: absolute;
   margin-left: 20%;
   margin-top: 58vh;
   border-radius: 3px;
@@ -110,11 +101,6 @@ a span {
 a:hover span {
   box-shadow: #00000073 1px 2px 2px;
   color: #2f2f2f;
-}
-
-.btn__title{
-  margin-top: 300px;
-  margin-left: 200px;
 }
 
 .container{
