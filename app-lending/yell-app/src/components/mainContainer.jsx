@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Menu from './menu'
+import Menu from './menu';
+import Btn from './btn';
 
 export default class MainContainer extends Component {
     render(){
@@ -14,7 +15,7 @@ export default class MainContainer extends Component {
                     <p>Creative agency </p>
                     <p className="second__title">Digital design</p>
                     </div>
-                <div className="title__mini">kak variant</div>
+                <Btn className="btn__title"/>
                 <div className="grey__block"></div>
             </div>
         )

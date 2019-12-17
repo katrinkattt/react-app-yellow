@@ -81,6 +81,14 @@ body{
   height: 47px;
   width: 119px;
   background-color: #FFE400;
+  position: absolute;
+}
+.btn__main a{
+  text-decoration: none;
+}
+.btn__title{
+  margin-top: 50%;
+  margin-left: 200px;
 }
 
 .container{
