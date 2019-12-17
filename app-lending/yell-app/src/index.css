@@ -120,27 +120,30 @@ body{
 }
 .offer__main{
   height: 200px;
-  width:200px;
+  width:250px;
   margin: 0 0 16px 16px;
   border: #2f2f2fa4 solid 1px;
+  white-space:nowrap;
+
+}
+.offer__main div{
+  display: inline-block;
 }
 .offer__img{
   height: 100px;
   width: 100px;
-  margin: auto;
-  margin-top: 10px;
+  margin-top:auto;
+  margin-left: 0;
   border-radius: 5px;
   border: 2px solid #2f2f2f;
-  align-items: center;
 }
 .offer__title{
   font-size: 20px;
   font-weight: bold;
-  
 }
-.offer__more{
+/* .offer__more{
   margin-bottom: 1px;
-}
+} */
 
 .cards__b{
   display: flex;
