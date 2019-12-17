@@ -89,8 +89,28 @@ body{
 }
 .btn__main a{
   text-decoration: none;
-  padding-top: 40%;
+  height: 47px;
+  width: 119px;
+  color: #2f2f2f;
+  font-size: large;
 }
+a span {
+  display: block;
+  height: 47px;
+  width: 119px;
+  background-color: #FFE400;
+  /* position: absolute; */
+  margin-left: 20%;
+  margin-top: 58vh;
+  border-radius: 3px;
+  box-shadow: #0000008e 2px 3px 3px;
+  color: #2f2f2f;
+}
+a:hover span {
+  box-shadow: #00000073 1px 2px 2px;
+  color: #2f2f2f;
+}
+
 .btn__title{
   margin-top: 300px;
   margin-left: 200px;
