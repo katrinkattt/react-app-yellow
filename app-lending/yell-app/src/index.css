@@ -77,6 +77,11 @@ body{
   height: 2px;
   margin-right: 10px;
 }
+.btn__main{
+  height: 47px;
+  width: 119px;
+  background-color: #FFE400;
+}
 
 .container{
   height: 100vh;
