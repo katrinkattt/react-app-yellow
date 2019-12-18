@@ -265,7 +265,12 @@ footer{
   background-color: #fcd708;
   color: #fff;
   box-shadow: #000000d0 -3px -3px 4px;
-  padding-bottom: 0;
+  padding-top: 50px;
+}
+.footer__text{
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 50px;
 }
 
 
