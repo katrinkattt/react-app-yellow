@@ -31,6 +31,10 @@ body{
 }
 .menu a{
   margin-left: 35px;
+  margin-top: 7px;
+}
+.menu:hover {
+  background-color: #fff;
 }
 
 .main__container{
