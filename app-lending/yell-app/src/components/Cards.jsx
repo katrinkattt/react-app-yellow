@@ -1,6 +1,25 @@
 import React, {Component} from 'react';
 
 export default class Cards extends Component{
+    constructor(props){
+        super(props)
+        this.state = {
+            curColor: 'white',
+            colors: [
+                'red',
+                'blue',
+                'black',
+                'white',
+                'aqua',
+                'green',
+            ]
+        }
+    }
+    changeColor(color){
+        this.setState({
+            curColor: color
+        })
+    }
     render(){
         return(
             <div className="container">
