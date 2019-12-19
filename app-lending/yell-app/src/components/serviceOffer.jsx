@@ -1,6 +1,17 @@
 import React, {Component} from 'react'
 
 export default class ServiceOffer extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            title: ['offer1', 'offer2', 'offer3'],
+            text: [
+                '  display block height width background-color position: absolute.',
+                'background-color position: absolute v background-color position: absolute.',
+                'display block height width 3 display block height width.'
+            ]
+        }
+    }
     render(){
         return(
             <div className="offer__main">
