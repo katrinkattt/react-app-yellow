@@ -96,13 +96,15 @@ a span {
   width: 119px;
   background-color: #FFE400;
   position: absolute;
-  margin-left: 20%;
-  margin-top: 365px;
   border-radius: 3px;
   box-shadow: #0000008e 2px 3px 3px;
   color: #2f2f2f;
   overflow: hidden;
   padding: 15px 5px 0 5px;
+}
+.btn__f{
+  margin-left: 20%;
+  margin-top: 365px;
 }
 a:hover span {
   box-shadow: #00000073 1px 2px 2px;
