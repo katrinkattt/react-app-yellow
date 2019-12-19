@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Btn from './btn';
 
 export default class Skils extends Component {
     render(){
@@ -10,6 +11,12 @@ export default class Skils extends Component {
                         <div className="title2__ skils__text">
                         Теперь переходим к File / Export и экспортируем все артборды в PNG (1x, 2x, 3x) или в SVG формате. Таким образом, у вас каждый объект будет отдельным файлом к большой радости разработчика.
                         Правда я заметил одну проблему: при экспорте к SVG файлу добавляется квадратный фон (хотя я удаляю заливку фона). Надеюсь, что это баг и Adobe его скоро пофиксит.
+                        </div>
+                        <div className="offers__skill">
+                            <div className="skill__of">
+                                <Btn className="btn__of"/>
+                                <Btn className="btn__of"/>
+                            </div>
                         </div>
                     </div>
                     <div className="skils__foto"></div>

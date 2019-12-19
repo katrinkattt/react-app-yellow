@@ -243,6 +243,14 @@ a:hover span {
   text-align: left;
   width: 70%;
 }
+.offers__skill{
+  height: 50px;
+  width: 300px;
+  background-color: #000;
+}
+.skill__of{
+  display: inline-block;
+}
 
 .skils__foto{
   width: 50%;
