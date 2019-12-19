@@ -6,8 +6,8 @@ export default class Cards extends Component{
         this.state = {
             curColor: 'white',
             colors: [
-                '#ff782a',
                 '#4a8388',
+                '#ff782a',
                 '#black',
                 '#c9804f',
                 '#4c4e43',
