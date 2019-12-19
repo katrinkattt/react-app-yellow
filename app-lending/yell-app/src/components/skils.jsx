@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Btn from './btn';
+
 
 export default class Skils extends Component {
     render(){
@@ -14,8 +14,7 @@ export default class Skils extends Component {
                         </div>
                         <div className="offers__skill">
                             <div className="skill__of">
-                                <Btn className="btn__of"/>
-                                <Btn className="btn__of"/>
+                                
                             </div>
                         </div>
                     </div>
