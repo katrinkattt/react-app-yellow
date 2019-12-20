@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import city from '../media/city.jpg'
 
 export default class Cards extends Component{
     constructor(props){
@@ -6,7 +7,7 @@ export default class Cards extends Component{
         this.state = {
             curColor: 'white',
             colors: [
-                '#4a8388',
+                'city.jpg',
                 '#ff782a',
                 '#black',
                 '#c9804f',
