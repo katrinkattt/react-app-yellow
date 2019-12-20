@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import city from '../media/city.jpg'
+import city from '../media/city.jpg';
 
 export default class Cards extends Component{
     constructor(props){
@@ -7,7 +7,7 @@ export default class Cards extends Component{
         this.state = {
             curColor: 'white',
             colors: [
-                'city.jpg',
+                'city',
                 '#ff782a',
                 '#black',
                 '#c9804f',
@@ -33,7 +33,7 @@ export default class Cards extends Component{
                                 this.state.colors.map((color, id) =>
                                 <div className="small-block"
                                     key={id}
-                                    style={{backgroundColor:color}}
+                                    style={<img src={color} className="foto__cards" />}
                                     onClick={ () => {this.changeColor(color)}}>
                                 </div>
                                 )
