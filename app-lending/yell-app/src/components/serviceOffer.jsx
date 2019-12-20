@@ -12,6 +12,11 @@ export default class ServiceOffer extends Component {
             ]
         }
     }
+    changeTitle(title){
+        this.setState({
+            curTitle: title
+        })
+    }
     render(){
         return(
             <div className="offer__main">
@@ -21,7 +26,7 @@ export default class ServiceOffer extends Component {
                     this.state.title.map((title, id) =>
                         <div className="offer__title"
                             key={id}
-                            val={()=> this.setState({t:title})}
+                            value={()=> {this.changeTitle({t:title})}}
                         ></div>
                     )
                 }
