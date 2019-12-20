@@ -15,17 +15,18 @@ export default class ServiceOffer extends Component {
     render(){
         return(
             <div className="offer__main">
-                {
-                    this.state.title.map((title, id) =>
-                    <div className="offer__img">
+                <div className="offer__img">
                     <div className="offer__info">
+                    {
+                    this.state.title.map((title, id) =>
                         <div className="offer__title"
                             key={id}
+                            val={()=> this.setState({t:title})}
                         ></div>
-                    </div>
-                    </div>
                     )
                 }
+                    </div>
+                </div>
                 {/* <div className="offer__img"></div>
                 <div className="offer__info">
                     <div className="offer__title">Offer</div>
