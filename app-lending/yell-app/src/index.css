@@ -207,7 +207,7 @@ a:hover span {
   height: 250px;
   width: 250px;
   margin: 0 0 16px 20px;
-  background-color: #000; 
+  background: url('./media/city.jpg')
   /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
 }
 .foto__card{
