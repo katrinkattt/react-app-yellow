@@ -200,7 +200,11 @@ a:hover span {
   display: flex;
   justify-content: center;
 }
-
+.foto__card{
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
 
 .small-block{
   float: left;
