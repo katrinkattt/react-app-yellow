@@ -200,18 +200,19 @@ a:hover span {
   display: flex;
   justify-content: center;
 }
-.foto__card{
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-}
+
 
 .small-block{
   float: left;
   height: 250px;
   width: 250px;
   margin: 0 0 16px 20px;
-  background-color: #000; /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
+  background-color: #000; 
+  /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
+}
+.foto__card{
+  height: 100%;
+  width: 100%;
 }
 /* found fotocard */
 .orange{
