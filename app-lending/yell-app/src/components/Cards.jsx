@@ -1,5 +1,13 @@
 import React, {Component} from 'react';
 import city from '../media/city.jpg';
+import orange from '../media/orange.jpg';
+import sckotch from '../media/sckotch.jpg';
+import city from '../media/city.jpg';
+import workSpace from '../media/workSpace.jpg';
+import workwork from '../media/workwork.jpg';
+import cityPark from '../media/cityPark.jpg';
+
+
 
 export default class Cards extends Component{
     constructor(props){
@@ -7,9 +15,9 @@ export default class Cards extends Component{
         this.state = {
             curColor: 'white',
             colors: [
-                'city',
-                '#ff782a',
-                '#black',
+                city,
+                orange,
+                sckotch,
                 '#c9804f',
                 '#4c4e43',
                 '#c5ff07',
