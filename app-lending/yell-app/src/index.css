@@ -45,6 +45,15 @@ body{
   background-color: #ffffff;
   position: relative;
 }
+.social{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #00000073;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 30%;
+}
 
 .grey__block{
   background-color: #f4f4f4;
