@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Menu from './menu';
 import Btn from './btn';
+import Social from './social';
 
 export default class MainContainer extends Component {
     render(){
@@ -15,6 +16,7 @@ export default class MainContainer extends Component {
                     <p>Creative agency </p>
                     <p className="second__title">Digital design</p>
                     </div>
+                <Social />
                 <Btn />
                 <div className="grey__block"></div>
             </div>
