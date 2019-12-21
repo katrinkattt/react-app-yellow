@@ -45,14 +45,18 @@ body{
   background-color: #ffffff;
   position: relative;
 }
+.socials{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 5px;
+
+}
 .social{
   width:40px;
   height: 40px;
   border-radius: 50%;
   background-color: #00000073;
-  position: absolute;
-  margin-left: 5px;
-  margin-top: 30%;
+  margin-bottom: 5px;
 }
 
 .grey__block{
