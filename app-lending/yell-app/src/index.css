@@ -28,10 +28,12 @@ body{
   position: fixed;
   margin-top: 0;
   z-index: 3;
+  box-shadow: #0000003d 2px 2px 2px;
+  padding-top: 10px;
 }
 .menu a{
   margin-left: 35px;
-  margin-top: 7px;
+  margin-top: 12px;
 }
 .menu:hover {
   background-color: #fff;
