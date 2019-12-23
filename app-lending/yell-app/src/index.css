@@ -187,6 +187,7 @@ a:hover span {
   border-radius: 5px;
   border: 2px solid #2f2f2f;
   position: relative;
+  overflow: hidden;
 }
 .offer__info{
   padding-top: 0;
