@@ -10,6 +10,9 @@ export default class Social extends Component {
                 <div className="social">
                     <img src="#" alt=""/>
                 </div>
+                <div className="social">
+                    <img src="#" alt=""/>
+                </div>
             </div>
         )
     }
