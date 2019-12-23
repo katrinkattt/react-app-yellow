@@ -28,8 +28,8 @@ export default class OurService extends Component {
     //     this.setState({
     //         curTitle: title
     //     });
-
     // }
+
     render(){
         return(
             <div className="container">
@@ -43,10 +43,10 @@ export default class OurService extends Component {
                             <div className="offer__main">
                                 <div className="offer__img"></div>
                                 <div className="offer__info" >
-                                    {/* <div className="offer__title"
+                                    <div className="offer__title"
                                         key={id}
                                         value={this.state.title }
-                                    ></div> */}
+                                    ></div>
                                     <div className="offer__text"
                                         key={id}
                                         value={()=> {this.changeText(`${text}`)}}
