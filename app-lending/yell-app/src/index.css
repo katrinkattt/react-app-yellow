@@ -133,9 +133,9 @@ a:hover span {
   background-color: #fff;
   color: #2f2f2f;
   padding-top: 10%;
+  overflow: hidden;
   display: flex;
   justify-content: center;
-  overflow: hidden;
 }
 
 .second__c{
@@ -148,11 +148,15 @@ a:hover span {
 
 .title_container{
   font-size: 30px;
+  display: flex;
+  justify-content: center;
 }
 .title2__{
   font-size: 14px;
   padding-top: 2px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -309,11 +313,15 @@ footer{
   color: #fff;
   box-shadow: #0000009d -3px -3px 4px;
   padding-top: 50px;
+  overflow: auto;
+  display:block;
+  text-align: center;
 }
 .footer__text{
   font-size: larger;
   font-weight: bolder;
   margin-top: 50px;
+
 }
 
 
