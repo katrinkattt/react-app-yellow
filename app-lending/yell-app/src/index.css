@@ -162,7 +162,7 @@ a:hover span {
 
 #big-block{
   width: 850px;
-  height: 75%;
+  height: 80%;
   overflow: hidden;
 }
 .serv__b{
@@ -177,7 +177,7 @@ a:hover span {
   height: 200px;
   width:250px;
   margin: 0 0 16px 16px;
-  border: #2f2f2fa4 solid 1px;
+  /* border: #2f2f2fa4 solid 1px; */
   white-space:nowrap;
 
 }
