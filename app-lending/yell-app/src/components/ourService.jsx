@@ -8,7 +8,7 @@ export default class OurService extends Component {
             img: [
                 'workwork'
             ],
-            title: ['offer1', 'offer2', 'offer3', 'offer1', 'offer2', 'offer3'],
+            title: ['offer1', 'offer2', 'offer3', 'offer4', 'offer5', 'offer6'],
             text: [
                 '  display block height width background-color position: absolute.',
                 'background-color position: absolute v background-color position: absolute.',
@@ -35,31 +35,19 @@ export default class OurService extends Component {
                             {
                                 this.servState.title.map((titl, id) =>
                                 <div className="serv__b">
-                            <div className="offer__main">
-                                <div className="offer__img"></div>
-                                <div className="offer__info" >
-                                    {
-                                        this.servState.title.map((titl, id) =>
-                                                <div className="offer__title">`sss ${this.servState.title}`</div>
-                                        )
-                                    }
-                                    {/* <div className="offer__title"
-                                        key={id}
-                                        value={this.state.title }
-                                    ></div>
-                                    <div className="offer__text"
-                                        key={id}
-                                        value={()=> {this.changeText(`${text}`)}}
-                                    ></div> */}
+                                <div className="offer__main">
+                                    <div className="offer__img"></div>
+                                    <div className="offer__info" >
+                                    <div className="offer__title"> {titl}</div>
+                                    <div className="offer__text"></div>
+                                        
+                                    </div>
                                 </div>
                             </div>
-                           </div>
                                 )
                             }
-                            
-                            )
-                        }
-                        ></div>
+                        
+                        </div>
                 </div>
                         {/* <div className="serv__b"><ServiceOffer /></div>
                         <div className="serv__b"><ServiceOffer /></div>
