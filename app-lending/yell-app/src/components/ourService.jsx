@@ -12,10 +12,10 @@ export default class OurService extends Component {
             text: [
                 '1 display block height width background-color position: absolute.',
                 '2 background-color position: absolute v background-color position: absolute.',
-                '3 display block height width 3 display block height width.',
+                '3 display block height width  display block height width.',
                 '4 display block height width background-color position: absolute.',
                 '5 background-color position: absolute v background-color position: absolute.',
-                '6 display block height width 3 display block height width.'
+                '6 display block height width  display block height width.'
             ]
         }
     }
