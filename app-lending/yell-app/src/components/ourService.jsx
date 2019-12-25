@@ -39,21 +39,18 @@ export default class OurService extends Component {
                                     <div className="offer__img"></div>
                                     <div className="offer__info" >
                                     <div className="offer__title"> {titl}</div>
-                                    <div className="offer__text"></div>
-                                        
+                                        {
+                                            this.servState.text.map((txt, id) =>
+                                                <div className="offer__text">{txt}</div>
+                                            )
+                                        }
                                     </div>
                                 </div>
                             </div>
                                 )
                             }
-                        
                         </div>
                 </div>
-                        {/* <div className="serv__b"><ServiceOffer /></div>
-                        <div className="serv__b"><ServiceOffer /></div>
-                        <div className="serv__b"><ServiceOffer /></div>
-                        <div className="serv__b"><ServiceOffer /></div>
-                        <div className="serv__b"><ServiceOffer /></div> */}
             </div>
         )
     }
