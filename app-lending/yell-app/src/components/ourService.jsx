@@ -19,15 +19,10 @@ export default class OurService extends Component {
             ]
         }
     }
-    changeText(text){
-        this.setState({
-            curText: text
-        })
-    }
-    // changeTitle(title){
+    // changeText(text){
     //     this.setState({
-    //         curTitle: title
-    //     });
+    //         curText: text
+    //     })
     // }
 
     render(){
@@ -36,24 +31,23 @@ export default class OurService extends Component {
                 <div className="second__c">
                     <div className="title_container">Our Services</div>
                     <div className=" title2__">Use the colspan and rowspan attribute to let the content span over multiple columns or rows.</div>
-                    <div id="big-block"
-                        {
-                            ...this.servState.text.map(( text, id) =>
+                    <div id="big-block">
                             <div className="serv__b">
                             <div className="offer__main">
                                 <div className="offer__img"></div>
                                 <div className="offer__info" >
-                                    <div className="offer__title"
+                                    <div className="offer__title">`sss ${this.servState.title}`</div>
+                                    {/* <div className="offer__title"
                                         key={id}
                                         value={this.state.title }
                                     ></div>
                                     <div className="offer__text"
                                         key={id}
                                         value={()=> {this.changeText(`${text}`)}}
-                                    ></div>
+                                    ></div> */}
                                 </div>
                             </div>
-                            </div>
+                           </div>
                             )
                         }
                         ></div>
