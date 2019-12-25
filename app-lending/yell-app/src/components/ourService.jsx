@@ -41,7 +41,7 @@ export default class OurService extends Component {
                                     <div className="offer__title"> {titl}</div>
                                         {
                                             this.servState.text.map((txt, id) =>
-                                                <div className="offer__text">{txt}</div>
+                                                <div className="offer__more">{txt}</div>
                                             )
                                         }
                                     </div>
