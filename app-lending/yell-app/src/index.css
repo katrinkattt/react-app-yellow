@@ -208,16 +208,15 @@ a:hover span {
 .offer__title{
   font-size: 20px;
   font-weight: bold;
-  width: 100px;
   position: relative;
+  /* margin-left: -90px; */
+  margin: 30px 0 0 -90px;
 
 }
 .offer__more{
   height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  text-align: justify;
+  width: 200px;
+  margin-left: -150px;
 
 }
 .cards__b{
