@@ -182,13 +182,14 @@ a:hover span {
 
 }
 .offer__main div{
-  display: inline-block;
+  display: inline-grid;
+  white-space: normal;
 }
 .offer__img{
   height: 100px;
   width: 100px;
-  margin-top:20%;
-  margin-left: 0;
+  /* margin-top:20%; */
+  margin-left: 30%;
   border-radius: 5px;
   border: 2px solid #2f2f2f;
   position: relative;
@@ -214,7 +215,9 @@ a:hover span {
 .offer__more{
   height: 100px;
   width: 100px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
 
 }
 .cards__b{
@@ -235,22 +238,7 @@ a:hover span {
   height: 100%;
   width: 100%;
 }
-/* found fotocard */
-.orange{
-  background-color: #f85b00;
-}
-.yell{
-  background-color: #f1f509;
-}
-.green{
-  background-color: #7ef50e;
-}
-.purple{
-  background-color: #820d97;
-}
-.blue{
-  background-color: #2f20ff;
-}
+
 
 .skils__main{
   display: flex;
