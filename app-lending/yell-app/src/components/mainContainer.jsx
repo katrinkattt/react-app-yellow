@@ -19,7 +19,9 @@ export default class MainContainer extends Component {
                 <Social />
                 <Btn />
                 <div className="grey__block">
-                    <div className="main__img"></div>
+                    <div className="img__M">
+                        <div className="main__img"></div>
+                    </div>
                 </div>
             </div>
         )
