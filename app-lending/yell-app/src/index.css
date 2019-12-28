@@ -271,7 +271,7 @@ a:hover span {
 }
 .skils__text{
   text-align: left;
-  width: 70%;
+  width: 100%;
 }
 .offers__skill{
   height: 70px;
@@ -288,7 +288,7 @@ a:hover span {
 .skils__foto{
   width: 50%;
   height: 70%;
-  background-color: rgb(95, 91, 91);
+  background: url(./media/skills.png);
   border-radius: 2px;
   /* found foto */
 }
