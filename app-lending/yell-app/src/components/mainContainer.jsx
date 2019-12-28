@@ -18,7 +18,9 @@ export default class MainContainer extends Component {
                     </div>
                 <Social />
                 <Btn />
-                <div className="grey__block"></div>
+                <div className="grey__block">
+                    <div className="main__img"></div>
+                </div>
             </div>
         )
     }
