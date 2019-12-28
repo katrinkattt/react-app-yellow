@@ -7,6 +7,13 @@ import workSpace from '../media/workSpace.jpg';
 import workwork from '../media/workwork.jpg';
 import cityPark from '../media/cityPark.jpg';
 
+import bg1 from '../media/bg1.png';
+import bg3 from '../media/bg3.png';
+import bg4 from '../media/bg4.png';
+import bg5 from '../media/bg5.png';
+// import bg_hover from '../media/bg_hover'
+import replace from '../media/replace_image.png';
+
 
 
 export default class Cards extends Component{
@@ -15,20 +22,16 @@ export default class Cards extends Component{
         this.state = {
             curColor: 'white',
             colors: [
-                city,
+                bg1,
                 orange,
-                workSpace,
-                workwork,
-                sckotch,
-                cityPark,
+                bg3,
+                replace,
+                bg4,
+                bg5,
             ]
         }
     }
-    // changeColor(color){
-    //     this.setState({
-    //         curColor: color
-    //     })
-    // }
+
     render(){
         return(
             <div className="container">
