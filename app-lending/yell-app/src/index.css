@@ -240,7 +240,7 @@ a:hover span {
   height: 250px;
   width: 250px;
   margin: 0 0 16px 20px;
-  background: url('./media/city.jpg')
+  background: #444;
   /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
 }
 .foto__card{
@@ -273,6 +273,7 @@ a:hover span {
   text-align: left;
   width: 100%;
 }
+
 .offers__skill{
   height: 70px;
   width: 350px;
