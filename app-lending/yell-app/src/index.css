@@ -186,31 +186,26 @@ a:hover span {
 .offer__main{
   height: 200px;
   width:250px;
-  margin: 0 0 16px 16px;
-  /* border: #2f2f2fa4 solid 1px; */
-  white-space:nowrap;
+  /* margin: 0 0 16px 16px; */
+  /* white-space:nowrap; */
 
 }
 .offer__main div{
-  display: inline-grid;
-  white-space: normal;
+  display: inline-block;
+  /* white-space: normal; */
 }
 .offer__img{
   height: 100px;
   width: 100px;
-  margin-left: 30%;
   border-radius: 5px;
   border: 2px solid #2f2f2f;
-  position: relative;
-  overflow: hidden;
 }
 .offer__info{
   padding-top: 0;
   margin: 0;
-  margin-top:50px;
-  height: 200px;
-  width: 120px;
-  display: block;
+  width: 100px;
+  margin-top:-200px;
+  /* display: block; */
   position: relative;
 }
 
@@ -223,9 +218,7 @@ a:hover span {
 }
 .offer__more{
   height: 100px;
-  width: 200px;
-  margin-left: -150px;
-
+  width: 150px;
 }
 .cards__b{
   display: flex;
