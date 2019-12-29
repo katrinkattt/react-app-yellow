@@ -242,7 +242,11 @@ a:hover span {
   background: #fcd708;
   /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
 }
-
+#card__2{
+  font-weight: 900;
+  color: #221e06;
+  z-index: 2;
+}
 
 .skils__main{
   display: flex;
@@ -281,8 +285,8 @@ a:hover span {
   width: 50%;
   height: 70%;
   background: url(./media/skills.png);
+  background-size: cover;
   border-radius: 2px;
-  /* found foto */
 }
 
 .command__main{
