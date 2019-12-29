@@ -240,16 +240,9 @@ a:hover span {
   height: 250px;
   width: 250px;
   margin: 0 0 16px 20px;
-  background: #444;
+  background: #fcd708;
+  background-size: cover !important;
   /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
-}
-.foto__card{
-  height: 100%;
-  width: 100%;
-}
-.small-block img{
-  height: 100%;
-  width: auto;
 }
 
 
