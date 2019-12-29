@@ -14,7 +14,7 @@ export default class Cards extends Component{
     constructor(props){
         super(props)
         this.state = {
-            curColor: 'white',
+            curColor: '#fcd708',
             colors: [
                 bg1,
                 bg,

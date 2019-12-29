@@ -68,15 +68,15 @@ body{
   position: absolute;
 }
 .img__M{
-  width: 600px;
+  width: 500px;
   height: 400px;
-  padding-left: 25%;
+  padding-left: 38%;
 }
 .main__img{
-  width: auto;
   height: 100%;
+  width: auto;
   background: url(./media/iMac.png);
-  background-position: center;
+  background-size: cover;
 }
 .title__main{
   font-family: Arial, Helvetica, sans-serif;
@@ -91,7 +91,7 @@ body{
 }
 .second__title  {
   margin-top: 1px;
-  margin-left: -15%;
+  /* margin-left: -15%; */
 
 }
 .title__home{
@@ -198,7 +198,6 @@ a:hover span {
 .offer__img{
   height: 100px;
   width: 100px;
-  /* margin-top:20%; */
   margin-left: 30%;
   border-radius: 5px;
   border: 2px solid #2f2f2f;
@@ -219,7 +218,6 @@ a:hover span {
   font-size: 20px;
   font-weight: bold;
   position: relative;
-  /* margin-left: -90px; */
   margin: 30px 0 0 -90px;
 
 }
@@ -240,8 +238,8 @@ a:hover span {
   height: 250px;
   width: 250px;
   margin: 0 0 16px 20px;
-  background: #fcd708;
   background-size: cover !important;
+  background: #fcd708;
   /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
 }
 
