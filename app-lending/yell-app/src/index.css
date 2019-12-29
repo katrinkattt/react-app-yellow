@@ -198,15 +198,13 @@ a:hover span {
   height: 100px;
   width: 100px;
   border-radius: 5px;
-  border: 2px solid #2f2f2f;
+  background-size: cover;
 }
 .offer__info{
   padding-top: 0;
   margin: 0;
-  width: 100px;
-  margin-top:-200px;
-  /* display: block; */
   position: relative;
+  margin-left: 20px;
 }
 
 .offer__title{
