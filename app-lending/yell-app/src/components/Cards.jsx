@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-import orange from '../media/orange.jpg';
+import bg from '../media/bg_hover.png';
 import bg1 from '../media/bg1.png';
 import bg3 from '../media/bg3.png';
 import bg4 from '../media/bg4.png';
@@ -17,7 +17,7 @@ export default class Cards extends Component{
             curColor: 'white',
             colors: [
                 bg1,
-                orange,
+                bg,
                 bg3,
                 replace,
                 bg4,
