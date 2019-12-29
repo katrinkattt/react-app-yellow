@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-import bg from '../media/bg_hover.png';
+import bg from '../index.css';
 import bg1 from '../media/bg1.png';
 import bg3 from '../media/bg3.png';
 import bg4 from '../media/bg4.png';
@@ -38,7 +38,7 @@ export default class Cards extends Component{
                                 this.state.colors.map((color, id) =>
                                 <div className="small-block"
                                     key={id}
-                                    style={{background:`url(${color})`}}
+                                    style={{background:`url(${color}) no-repeat `}}
                                 >
                                 </div>
                                 )
