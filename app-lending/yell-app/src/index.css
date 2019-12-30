@@ -289,7 +289,11 @@ a:hover span {
   width: 150px;
   padding: 20px;
 }
-
+.feedback{
+  height: 30%;
+  width: 100%;
+  background-color: #e0e0e0;
+}
 footer{
   margin-bottom: 1px;
   width: 100%;
