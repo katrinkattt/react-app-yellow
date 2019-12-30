@@ -32,6 +32,7 @@ export default class OurService extends Component {
         }
     }
 
+    
 
     render(){
         return(
@@ -41,8 +42,8 @@ export default class OurService extends Component {
                     <div className=" title2__">Use the colspan and rowspan attribute to let the content span over multiple columns or rows.</div>
                     <div id="big-block">
                             {
-                               this.servState.text.map((txt, id) =>
-                                    this.servState.title.map((titl) =>
+                                this.servState.title.map((titl, id, i=0) =>
+                                    this.servState.text.map((txt) =>
                                         this.servState.img.map((png) =>
                                         <div className="serv__b">
                                             <div className="offer__main">
@@ -51,8 +52,10 @@ export default class OurService extends Component {
                                                     style={{background:`url(${png}) no-repeat`}}
                                                 ></div>
                                                 <div className="offer__info" >
-                                                    <div className="offer__title"> {titl}</div>
-                                                    <div className="offer__more">{txt}</div>
+                                                    <div className="offer__title"
+                                                    key={id}> {this.servState.title[3]}</div>
+                                                    <div className="offer__more"
+                                                    key={id}>{txt}</div>
                                                 </div>
                                             </div>
                                         </div>
