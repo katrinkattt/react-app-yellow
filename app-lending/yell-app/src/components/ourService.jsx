@@ -18,9 +18,8 @@ export default class OurService extends Component {
                 icon21,
                 icon22,
                 icon23
-                
             ],
-            title: ['offer1', 'offer2', 'offer3', 'offer4', 'offer5', 'offer6'],
+            title: ['web development', 'web design', 'seo development', 'google pagespeed', 'management', 'analitics results'],
             text: [
                 '1 display block height width background-color position: absolute.',
                 '2 background-color position: absolute v background-color position: absolute.',
