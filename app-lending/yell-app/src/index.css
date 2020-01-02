@@ -300,6 +300,16 @@ a:hover span {
   height: 197px;
   width: 1100px;
   background-color: #b8b5b5;
+  display: flex;
+}
+.title__feed{
+  margin: 90px 0 0 20px;
+  font-size: 20px;
+  width: 50%;
+}
+.feedback__inputs{
+  margin-top: 90px;
+  width: 50%;
 }
 footer{
   margin-bottom: 1px;
