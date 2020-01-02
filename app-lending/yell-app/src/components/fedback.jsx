@@ -6,8 +6,10 @@ export default class Feedback extends Component{
             <div className="feedback">
                 <div className="feed__block">
                     <div className="title__feed">Suscribe to our Newsletter</div>
-                    <input className="feed__input" type="text" id="email" placeholder="enter your email"/>
-                    <input type="submit" className="feed__btn" id="send" value="SUBSCRIBE"/>
+                    <div className="feedback__inputs">
+                        <input className="feed__input" type="text" id="email" placeholder="enter your email"/>
+                        <input type="submit" className="feed__btn" id="send" value="SUBSCRIBE"/>
+                    </div>
                 </div>
             </div>
         )
