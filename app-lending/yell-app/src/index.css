@@ -292,7 +292,14 @@ a:hover span {
 .feedback{
   height: 30%;
   width: 100%;
-  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.feed__block{
+  height: 197px;
+  width: 1100px;
+  background-color: #b8b5b5;
 }
 footer{
   margin-bottom: 1px;
