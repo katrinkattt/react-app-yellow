@@ -5,10 +5,10 @@ export default class Menu extends Component {
         return(
             <div className="menu">
                 <div>
-                    <a>Home</a>
-                    <a>Our Service</a>
-                    <a>Bye</a>
-                    <a>About</a>
+                    <a href="#home">Home</a>
+                    <a href="#ourService">Our Service</a>
+                    <a href="#feedback">Bye</a>
+                    <a href="#skills">About</a>
                 </div>
             </div>
         )
