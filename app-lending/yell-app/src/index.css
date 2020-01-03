@@ -22,7 +22,6 @@ body{
   height: 35px;
   width: 100%;
   background-color: #ffffffca;
-  color:#2f2f2fda;
   font-size: larger;
   font-weight: bold;
   position: fixed;
@@ -32,6 +31,8 @@ body{
   padding-top: 10px;
 }
 .menu a{
+  text-decoration: none;
+  color:#2f2f2fda;
   margin-left: 35px;
   margin-top: 12px;
 }
