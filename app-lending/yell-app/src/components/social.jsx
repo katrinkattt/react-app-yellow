@@ -7,14 +7,20 @@ export default class Social extends Component {
     render(){
         return(
             <div className="socials">
-                <div className="social">
-                    <img src={`${facebook}`} alt=""/>
+                <div className="social" >
+                    <a href="https://www.facebook.com/">
+                        <img src={`${facebook}`}  alt=""/></a>
                 </div>
                 <div className="social">
-                    <img src={`${twitt}`} alt=""/>
+                    <a href="https://twitter.com/">
+                        <img src={`${twitt}`} alt=""/>
+                    </a>
                 </div>
                 <div className="social">
-                    <img src={`${inst}`} alt=""/>
+                    <a href="https://www.instagram.com/">
+                        <img src={`${inst}`} alt=""/>
+                    </a>
+                    
                 </div>
             </div>
         )
