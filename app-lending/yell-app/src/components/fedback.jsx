@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 export default class Feedback extends Component{
     render(){
         return(
-            <div className="feedback">
+            <div className="feedback" id="feedback">
                 <div className="feed__block">
                     <div className="title__feed">Suscribe to our Newsletter
                     <div className="feed__text">Subscibe to our newsletter and get 30% off free downloads mockups</div>
