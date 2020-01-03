@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 export default class Skils extends Component {
     render(){
         return(
-            <div className="container">
+            <div className="container" id="skills">
                 <div className="skils__main">
                     <div className="skils__about">
                         <div className=" title_container skils__title">Our skils</div>

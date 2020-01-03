@@ -6,7 +6,7 @@ import Social from './social';
 export default class MainContainer extends Component {
     render(){
         return(
-            <div className="main__container">
+            <div className="main__container" id="home">
                 <Menu />
                 <div className="title__main">
                     <div className="home__line">
