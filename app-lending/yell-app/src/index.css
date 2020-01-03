@@ -121,10 +121,10 @@ a span {
   display: block;
   height: 47px;
   width: 119px;
-  background-color: #FFE400;
+  background: linear-gradient(to right, #FFE400 70%, #00000000 30%);
   position: absolute;
   border-radius: 3px;
-  box-shadow: #0000008e 2px 3px 3px;
+  box-shadow: #0000008e -2px 3px 3px;
   color: #2f2f2f;
   overflow: hidden;
   padding: 15px 5px 0 5px;

@@ -20,7 +20,6 @@ export default class Social extends Component {
                     <a href="https://www.instagram.com/">
                         <img src={`${inst}`} alt=""/>
                     </a>
-                    
                 </div>
             </div>
         )
