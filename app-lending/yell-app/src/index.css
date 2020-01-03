@@ -171,8 +171,9 @@ a:hover span {
 
 
 #big-block{
-  width: 850px;
-  height: 80%;
+  /* width: 850px; */
+  height: 90%;
+  max-height: fit-content;
   overflow: hidden;
 }
 .serv__b{
@@ -300,6 +301,7 @@ a:hover span {
 .feed__block{
   height: 197px;
   width: 1100px;
+  max-width: fit-content;
   background-color: #b8b5b5;
   display: flex;
 }
@@ -316,7 +318,9 @@ a:hover span {
 }
 .feedback__inputs{
   margin-top: 90px;
-  width: 50%;
+  padding-right: 30px;
+  height: 50px;
+  display: flex;
 }
 .feed__input{
   height: 40px;
