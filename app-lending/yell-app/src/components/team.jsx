@@ -4,7 +4,7 @@ import team2 from '../media/team2.png';
 import team3 from '../media/team3.png';
 import team4 from '../media/team4.png';
 
-export default class Command extends Component {
+export default class Team extends Component {
     constructor(props){
         super(props)
         this.teamstate = {
@@ -39,7 +39,19 @@ export default class Command extends Component {
             <div className="container">
                 <div className="title_container">Our command</div>
                 <div className="command__main">
-                    <div className="person"></div>
+                    {
+                        this.teamstate.img.map((png, id) =>
+                        <div className="person">
+                            <div className="team__img"
+                                key= {id}
+                                style={{background:`url(${png}) no-repeat`}}
+                            ></div>
+                            <div className="team__name">{this.teamstate.name[id]}</div>
+                            <div className="team__position">{this.teamstate.position[id]}</div>
+                            <div className="team__telefon">{this.teamstate.telefon[id]}</div>
+                        </div>
+                        )
+                    }
                 </div>
             </div>
         )
