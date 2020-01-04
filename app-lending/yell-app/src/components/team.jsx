@@ -38,6 +38,8 @@ export default class Team extends Component {
         return(
             <div className="container">
                 <div className="title_container title__team">Our command</div>
+                <div className="title2__ title__team2 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</div>
+
                 <div className="command__main">
                     {
                         this.teamstate.img.map((png, id) =>
