@@ -12,12 +12,17 @@ const state = {
         }
     };
 const email = document.getElementById('email');
-// const patternEmail =/(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
+const btn = document.getElementById('send')
 
-email.addEventListener('keyup', (e) =>{
+btn.addEventListener('click', (e) =>{
     if (/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(email.value)) {
         state.email = e.currentTarget.value;
-        state.isReady.email = state.patternEmail.test(state.email);
+        // state.isReady.email = state.patternEmail.test(state.email);
+        state.isReady.email = true;
+        alert('we will contact you');
+    }
+    else{
+        alert('value not correct,\n true again ');
     }
 })
 // If you want your app to work offline and load faster, you can change
