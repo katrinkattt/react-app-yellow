@@ -281,16 +281,28 @@ a:hover span {
   background-size: cover;
   border-radius: 2px;
 }
-
+.title__team{
+  position: absolute;
+  margin-bottom: 30px;
+}
 .command__main{
-  height: 70%;
+  height: 90%;
+  display: flex;
+  margin-top: 40px;
 }
 
 .person{
-  height: 250px;
-  width: 150px;
+  height: 400px;
+  width: 210px;
+  margin-left: 40px;
   padding: 20px;
 }
+.team__img{
+  height: 300px;
+  width: 210px;
+  margin-bottom: 20px;
+}
+
 .feedback{
   height: 30%;
   width: 100%;
