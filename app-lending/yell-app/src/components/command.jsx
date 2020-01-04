@@ -14,7 +14,24 @@ export default class Command extends Component {
                 team3,
                 team4
             ],
-            
+            name:[
+                'NILLA DOE',
+                'MARTA SMITH',
+                'MICHAEL DOE',
+                'TISA TRUMP'
+            ],
+            position:[
+                'creative desinger',
+                'finance support',
+                'owner consulting',
+                'finance support'
+            ],
+            telefon:[
+                '+4 72 286547 88',
+                '+4 72 659855 66',
+                '+4 75 973214 55',
+                '+4 72 866456 45'
+            ]
         }
     }
     render(){
