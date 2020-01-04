@@ -37,7 +37,7 @@ export default class Team extends Component {
     render(){
         return(
             <div className="container">
-                <div className="title_container">Our command</div>
+                <div className="title_container title__team">Our command</div>
                 <div className="command__main">
                     {
                         this.teamstate.img.map((png, id) =>
