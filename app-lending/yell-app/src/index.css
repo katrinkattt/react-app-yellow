@@ -281,9 +281,12 @@ a:hover span {
   background-size: cover;
   border-radius: 2px;
 }
-.title__team{
+.title__team, .title__team2{
   position: absolute;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+}
+.title__team{
+  margin-top: -40px;
 }
 .command__main{
   height: 90%;
@@ -296,11 +299,20 @@ a:hover span {
   width: 210px;
   margin-left: 40px;
   padding: 20px;
+  color:#505050;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
 }
 .team__img{
   height: 300px;
   width: 210px;
   margin-bottom: 20px;
+}
+.team__position, .team__telefon{
+  font-size: 12px;
+  opacity: 0.8;
+  margin-top: 20px;
 }
 
 .feedback{
