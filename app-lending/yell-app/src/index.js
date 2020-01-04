@@ -11,11 +11,14 @@ const state = {
             email:false
         }
     };
-const patternEmail =/(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 const email = document.getElementById('email');
+// const patternEmail =/(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
+
 email.addEventListener('keyup', (e) =>{
-    state.email = e.currentTarget.value;
-    state.isReady.email = state.patternEmail.test(state.email);
+    if (/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(email.value)) {
+        state.email = e.currentTarget.value;
+        state.isReady.email = state.patternEmail.test(state.email);
+    }
 })
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
