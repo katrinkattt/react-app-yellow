@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import team1 from '../media/team1.png';
+import team1 from '../media/team4.png';
+import team4 from '../media/team1.png';
 import team2 from '../media/team2.png';
 import team3 from '../media/team3.png';
-import team4 from '../media/team4.png';
 
 export default class Team extends Component {
     constructor(props){
@@ -15,10 +15,10 @@ export default class Team extends Component {
                 team4
             ],
             name:[
-                'NILLA DOE',
-                'MARTA SMITH',
-                'MICHAEL DOE',
-                'TISA TRUMP'
+                'nilla doe',
+                'marta smith',
+                'michael doe',
+                'tisa trump'
             ],
             position:[
                 'creative desinger',
