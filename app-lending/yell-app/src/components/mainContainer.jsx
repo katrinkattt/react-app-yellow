@@ -17,7 +17,9 @@ export default class MainContainer extends Component {
                     <p className="second__title">Digital design</p>
                     </div>
                 <Social />
-                <Btn />
+                <div className="btn__f">
+                    <Btn />
+                </div>
                 <div className="grey__block">
                     <div className="img__M">
                         <div className="main__img"></div>
