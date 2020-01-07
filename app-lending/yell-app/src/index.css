@@ -127,7 +127,7 @@ a span {
   height: 47px;
   width: 119px;
   background: linear-gradient(to right, #FFE400 70%, #00000000 30%);
-  position: absolute;
+  /* position: absolute; */
   border-radius: 3px;
   box-shadow: #0000008e -2px 3px 3px;
   color: #2f2f2f;
@@ -271,9 +271,14 @@ a:hover span {
 .offers__skill{
   height: 70px;
   width: 350px;
+  display: inline-flex;
 }
 .skill__of{
-  display: inline-block;
+  display: inherit;
+}
+.skill__of > .btn__main{
+  margin-right: 15px;
+  padding: -6px;
 }
 .btn__of{
   margin: 0;
