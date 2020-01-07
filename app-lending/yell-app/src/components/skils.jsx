@@ -13,9 +13,15 @@ export default class Skils extends Component {
                         </div>
                         <div className="offers__skill">
                             <div className="skill__of">
-                                <Btn title="84%"/>
-                                <Btn title="94%"/>
-                                <Btn title="98%"/>
+                                <div className="skill__txt__btn">Ui/UX Desing
+                                    <Btn title="84%"/>
+                                </div>
+                                <div className="skill__txt__btn">Web Desing
+                                    <Btn title="94%"/>
+                                </div>
+                                <div className="skill__txt__btn">Web Deb
+                                    <Btn title="98%"/>
+                                </div>
                             </div>
                         </div>
                     </div>
