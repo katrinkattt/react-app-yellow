@@ -154,6 +154,9 @@ a:hover span {
   display: flex;
   justify-content: center;
 }
+.container__fit{
+  height: fit-content;
+}
 
 .second__c{
   height: 90%;
@@ -251,7 +254,7 @@ a:hover span {
   display: flex;
   justify-content: space-around;
   width: 70%;
-  height: 80%;
+  height: 90%;
 }
 
 .skils__about{
@@ -281,6 +284,7 @@ a:hover span {
 }
 .skill__of{
   display: inherit;
+  z-index: 2;
 }
 
 .btn__of{

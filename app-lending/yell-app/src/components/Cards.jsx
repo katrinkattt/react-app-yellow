@@ -39,7 +39,7 @@ export default class Cards extends Component{
 
     render(){
         return(
-            <div className="container">
+            <div className="container container__fit">
                 <div className="second__c">
                     <div className="title_container">Cards</div>
                     <div className=" title2__">Choice favorite color and looking</div>
