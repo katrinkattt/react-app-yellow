@@ -19,7 +19,7 @@ export default class Skils extends Component {
                                 <div className="skill__txt__btn">Web Desing
                                     <Btn title="94%"/>
                                 </div>
-                                <div className="skill__txt__btn">Web Deb
+                                <div className="skill__txt__btn">Web Dev
                                     <Btn title="98%"/>
                                 </div>
                             </div>
