@@ -47,7 +47,7 @@ export default class Cards extends Component{
                         <div id="big-block">
                             {
                                 this.state.colors.map((color, id) =>
-                                <div className="small-block" id={"card__"+id}
+                                    <div className="small-block" id={"card__"+id}
                                     key={id}
                                     style={{background:`url(${color}) no-repeat `}}
                                 >
