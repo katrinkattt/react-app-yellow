@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import ServiceOffer from './serviceOffer';
+import ServOffer from './serviceOffer';
 import icon11 from '../media/icon11.png';
 import icon12 from '../media/icon12.png';
 import icon13 from '../media/icon13.png';
@@ -31,7 +31,7 @@ export default class OurService extends Component {
         }
     }
 
-    
+
 
     render(){
         return(
@@ -42,20 +42,7 @@ export default class OurService extends Component {
                     <div id="big-block">
                             {
                                 this.servState.img.map((png, id) =>
-                                    <div className="serv__b">
-                                        <div className="offer__main">
-                                            <div className="offer__img"
-                                                key={id}
-                                                style={{background:`url(${png}) no-repeat`}}
-                                            ></div>
-                                            <div className="offer__info" >
-                                                <div className="offer__title"
-                                                key={id}> {this.servState.title[id]}</div>
-                                                <div className="offer__more"
-                                                key={id}>{this.servState.text[id]}</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <ServOffer img={this.servState.img[id]} title={this.servState.title[id]} text={this.servState.text[id]} />
                                 )
                             }
                         </div>
