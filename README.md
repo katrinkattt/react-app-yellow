@@ -5,5 +5,5 @@ single page landing in yellow colors
 
 
 
-ready
-готов
+Ready
+Готов
